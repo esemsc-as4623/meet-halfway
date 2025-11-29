@@ -32,4 +32,24 @@ smart contracts
     - https://github.com/midnightntwrk/midnight-awesome-dapps
 
 proof server
-- 
+- available on Docker
+
+midnight libraries
+@midnight-ntwrk/compact-runtime // provide tools to interact with contract implementation
+@midnight-ntwrk/dapp-connector-api // interact with wallet on browser
+@midnight-ntwrk/ledger // work with the on-chain ledger
+@midnight-ntwrk/midnight-js-contracts // tools to work on contracts
+@midnight-ntwrk/zswap // create private transactions
+
+workflow
+- write a contract
+- compiler creates JavaScript implementation
+- compiler provides TypeScript types
+
+example
+- example-counter
+- witness to ensure data provided stays private
+- open zeppelin (N)FTs https://github.com/OpenZeppelin/compact-contracts
+- midnight app https://www.npmjs.com/package/create-midnight-app
+
+https://docs.midnight.network

@@ -53,3 +53,5 @@ example
 - midnight app https://www.npmjs.com/package/create-midnight-app
 
 https://docs.midnight.network
+
+BOUNTY TBD
